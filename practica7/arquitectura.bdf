@@ -392,7 +392,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 1184 1120 1352 1136)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "in[15..0]" (rect 5 0 46 12)(font "Arial" ))
+	(text "input0[15..0]" (rect 5 0 67 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
