@@ -3,6 +3,10 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL; 
 
+-- faltan buses de datos e implementar su funcionamiento
+-- Falta Q7, q0, FC, bus de Prueba, VF.
+
+
 entity logica_seleccion is
 	Port (  inst : in STD_LOGIC_VECTOR(1 downto 0);
 			  CC : in STD_LOGIC;

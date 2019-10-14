@@ -6,6 +6,8 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 entity registro_instruccion is
 	Port (  RELOJ : in STD_LOGIC;
 			  RESET : in STD_LOGIC;
+			  CRIn  : in STD_LOGIC;   	-- Falta usarlos
+			  MAPn  : in STD_LOGIC;		--	Falta usarlos 
 			  ENTRADA  : in STD_LOGIC_VECTOR(7 downto 0);
 			  SALIDA : out STD_LOGIC_VECTOR(11 downto 0));
 end registro_instruccion;
